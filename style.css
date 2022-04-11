@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style: none;
+}
+
+body {
+
+}
+
+main {
+    width: 621px;
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px #000 solid;
+}
+.content {
+    width: 600px;
+    height: 435px;
+    margin: 14px 9px 13px 12px;
+    border: 1px #000 solid;
+
+}
+
+.poiskovik {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px #000 solid;
+
+}
+
+label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+input:first-child {
+    outline: none;
+    border: none;
+    width: 565px;
+}
+input:first-child[type='text'] {
+    padding: 0 20px;
+    font-size: 18px;
+}
+button {
+    width: 44px;
+    height: 44px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+
+button i {
+    font-size: 18px;
+    opacity: .5;
+}
+
+button:active {
+    background-color: lawngreen;
+}
+.main-content {
+    display: flex;
+}
+.contaner {
+    height: 390px;
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.infi {
+    width: 298px;
+    height:345px;
+}
+.first-infa, .second-infa, .third-infa {
+    width: 258px;
+    height:305px;
+    position: absolute;
+    border: 1px #000 solid;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-infa, .s-infa, .t-infa {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    justify-content: space-between;
+}
+.f-qradus h2 {
+    font-size: 70px;
+}
+
+.f-poqoda-icon {
+    width: 258px;
+    display: flex;
+    justify-content: center;
+
+}
+.f-poqoda-icon img {
+    width: 100px;
+
+}
+
+.f-qorod {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f-qorod p,.f-qorod i {
+    font-size: 24px;
+}
+
+
+
+
+
+.contaner > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #000 solid;
+
+}
+.contaner >ul > li {
+    width: 99px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #000 solid;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.contaner >ul > li:hover {
+    background-color: lawngreen;
+}
+.s-qorod h2 {
+    font-size: 24px;
+    margin: 20px 20px;
+}
+.s-infa ul {
+    margin: 20px 20px;
+}
+.s-infa li {
+    font-size: 24px;
+    display: flex;
+    margin: 5px 0;
+}
+.s-infa li p {
+    padding-left: 10px;
+}
+
+
+.t-infa {
+    overflow: hidden;
+}
+.t-infa h2 {
+    font-size: 24px;
+    margin: 20px;
+    width: 100%;
+}
+
+.tables {
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 230px;
+
+}
+.table {
+    width: 100%;
+    height: 120px;
+    border: 1px #000 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.p-stupen {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.v-stupen {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.v-stupen ul:first-child li {
+    display: flex;
+}
+
+.v-stupen ul:first-child li p {
+    padding-left: 5px;
+}
+.v-stupen ul:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.added-loc {
+    width: 302px;
+    height: 390px;
+    border: 1px #000 solid;
+    padding: 20px;
+
+}
+
+.added-location h2 {
+    font-size: 24px;
+}
+
+.added-city ul {
+    margin: 20px;
+}
+
+
+.added-city ul li{
+    padding: 5px 0;
+    font-size: 20px;
+    list-style: unset;
+    cursor: pointer;
+}
+.added-city ul li:hover {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}

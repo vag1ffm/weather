@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cb2bc27fe.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="poiskovik">
+                <label>
+                    <input type="text" placeholder="Баку">
+                    <button><i class="fas fa-search"></i></button>
+                </label>
+            </div>
+            <div class="main-content">
+                <div class="contaner">
+                    <div class="infi">
+                        <div style="display:none;"  class="first-infa">
+                            <div class="f-infa">
+                                <div class="f-qradus">
+                                    <h2></h2>
+                                </div>
+                                <div class="f-poqoda-icon">
+                                    <img src="" >
+                                </div>
+                                <div class="f-qorod">
+                                    <p id="qorod"></p>
+                                    <i class="fa-solid fa-heart" onclick="like()"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display:none;" class="second-infa">
+                            <div class="s-infa">
+                                <div class="s-qorod">
+                                    <h2></h2>
+                                </div>
+                                <ul>
+                                    <li class="tempr">Temperature: <p></p></li>
+                                    <li class="chustv-tempr">Feels like: <p></p></li>
+                                    <li class="oblachnost">Weather: <p></p></li>
+                                    <li class="vosxod">Sunrise: <p></p></li>
+                                    <li class="zakat">Sunset: <p></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="display:none;" class="third-infa">
+                            <div class="t-infa">
+                                <h2>Baku</h2>
+                                <div class="tables">
+                                    <div class="table">
+                                        <div class="p-stupen">
+                                            <p>17 May</p>
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="v-stupen">
+                                            <ul>
+                                                <li>Temperature: <p>13</p></li>
+                                                <li>Feels like: <p>10</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li>rain</li>
+                                                <li><i class="fas fa-cloud"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="p-stupen">
+                                            <p>17 May</p>
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="v-stupen">
+                                            <ul>
+                                                <li>Temperature: <p>13</p></li>
+                                                <li>Feels like: <p>10</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li>rain</li>
+                                                <li><i class="fas fa-cloud"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <div class="p-stupen">
+                                            <p>17 May</p>
+                                            <p>12:00</p>
+                                        </div>
+                                        <div class="v-stupen">
+                                            <ul>
+                                                <li>Temperature: <p>13</p></li>
+                                                <li>Feels like: <p>10</p></li>
+                                            </ul>
+                                            <ul>
+                                                <li>rain</li>
+                                                <li><i class="fas fa-cloud"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li onclick="show('first-infa')">now</li>
+                        <li onclick="show('second-infa')">details</li>
+                        <li onclick="show('third-infa')">Forecast</li>
+                    </ul>
+                </div>
+                <div class="added-loc">
+                    <div class="added-location">
+                        <h2>Added Locations:</h2>
+                    </div>
+                    <div class="added-city">
+                        <ul></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
